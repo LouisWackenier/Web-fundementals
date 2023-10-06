@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner {
+    background-color: violet;
+    text-align: center;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    top: 0;
+    width: auto;
+}
+
+a {
+    text-decoration: underline;
+}
+
+header, li {
+   display: inline-block;
+   text-decoration: none; 
+   padding-left: 5px;
+   right: 0;
+}
+
+
+main {
+    background-color: cornflowerblue;
+}
+
