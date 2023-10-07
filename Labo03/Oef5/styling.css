@@ -28,3 +28,9 @@ main {
     background-color: cornflowerblue;
 }
 
+img {
+    width: 500px;
+    height: 500px;
+    margin-right: 50px;
+    padding-right: 10px;
+}
