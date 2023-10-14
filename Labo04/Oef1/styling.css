@@ -1,7 +1,33 @@
+@font-face {
+    font-family: myFirstEverFont;
+    src: url(../Fonts/IBMPlexMono-Medium.ttf);
+}
+
+body {
+    font-family: myFirstEverFont;
+}
+
 h2 {
-    right: 0;
+    text-align: right;
 }
 
 div {
+    background-size: cover;
+    height: 25vh;
+
+}
+
+div:nth-child(1) {
     background-image: url(../Images/Img1.jpg);
+    background-position: 0% 23%;
+}
+
+div:nth-child(3) {
+    background-image: url(../Images/Img2.jpeg);
+    background-position: 0% 60%;
+}
+
+div:nth-child(5) {
+    background-image: url(../Images//Img3.jpeg);
+    background-position: 0% 50%;
 }
