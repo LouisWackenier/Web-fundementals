@@ -1,0 +1,20 @@
+body {
+    width: 50vw;
+	height: 40vw;
+}
+
+h1 {
+    background-color: #f72585;
+    width: 10vw;
+	height: 95vh;
+	box-shadow: 
+		10vw 0 #b5179e, 
+		20vw 0 #7209b7,
+		30vw 0 #560bad,
+		40vw 0 #480ca8,
+		50vw 0 #3a0ca3,
+		60vw 0 #3f37c9,
+		70vw 0 #4361ee,
+		80vw 0 #4895ef,
+		90vw 0 #4cc9f0;
+}

@@ -1,0 +1,16 @@
+h1, p, h3, h4, em, a {
+	height: 10vh;
+}
+
+em, a {display: block;}
+
+h1:first-of-type {background-color: #4d79a7;}
+h1 + p {background-color: #f28e2c;}
+p + p {background-color: #e15758;}
+h3:first-of-type {background-color: #77b7b4;}
+body > em {background-color: #58a24e;}
+em ~ a {background-color: #edc949;}
+em:last-of-type {background-color: #b07aa1}
+h4 {background-color: #ff9ca8;}
+h4 ~ h3 {background-color: #9c745f;} 
+p:last-of-type {background-color: #bab0ab;}
