@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+    
+}
+
+div {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 5px;
+
+    padding-left: ;
+}
+
+a {
+    padding: 8px 15rem;
+    display: block;
+    text-decoration: underline;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.Red {
+   background-color: Red; 
+}
+
+.Orange {
+    background-color: Orange;
+}
+
+.Yellow {
+    background-color: Yellow;
+}
+
+.Green {
+    background-color: Green;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.Indigo {
+    background-color: indigo;
+}
+
+.Violet {
+    background-color: violet;
+}
