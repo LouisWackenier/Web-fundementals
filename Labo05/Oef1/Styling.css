@@ -1,7 +1,7 @@
 body {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(10fr, 25fr, 10fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 div {   
@@ -9,19 +9,24 @@ div {
     font-size: 4vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    height: 600px;
+    height: 250px;
+    padding-top: 30vh;
 }
 
 
 div:nth-child(1){
     background-color: darkturquoise; 
-    
+    width: 250px;
+    margin-left: 300px;
 }    
 
 div:nth-child(2){
     background-color: darkviolet;
+    width: 65vh;
 }
 
 div:nth-child(3){
     background-color: deepskyblue;
+    width: 300px;
+    margin-left: 4vh;
 }
