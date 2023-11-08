@@ -1,0 +1,27 @@
+body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+div:nth-child(1) {
+    background-color: #1446a0;
+}
+
+div:nth-child(2) {
+    background-color: #db3069;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+div:nth-child(3) {
+    background-color: #f5d547;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+div:nth-child(4) {
+    background-color: #ebebd3;
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}

@@ -1,0 +1,58 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+	background-color: #d1d5d8;
+	padding: 10vh 10vw; 
+}
+
+header {
+	background-color: #54acd2;
+	height: 15vh;
+	margin-bottom: 5vh;
+    border-radius: 5vh 5vh 0 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5vh;
+}
+
+main {
+	background-color: #f7d964;
+	height: 40vh;
+	margin-bottom: 5vh;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 5vh;
+}
+
+footer {
+	background-color: #1abc9d;
+	height: 15vh;
+	border-bottom-left-radius: 5vh;
+	border-bottom-right-radius: 5vh;
+}
+
+header, main, footer {
+	border: .1vh solid #28334e;
+	box-shadow: 1vh 1vh #485477;
+	padding: 5vh;
+}
+
+h1, nav, article, aside, li {
+	border: .1vh solid #28334e;
+}
+
+ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	height: 100%;
+	gap: 5vh;
+    list-style: none;
+}
+
+h1, nav {background-color: #296ab0;}
+article {background-color: #fba026;}
+aside {background-color: #f37835;}
+li {background-color: #05a885;}

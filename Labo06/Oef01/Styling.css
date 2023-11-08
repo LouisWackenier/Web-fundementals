@@ -1,0 +1,60 @@
+/* My code
+@media (min-width: 800px) {
+  div {
+       width: auto;
+       height: 25vh;
+     }
+  
+     div:nth-child(1) {
+       background-color: #b90020;
+     }
+  
+     div:nth-child(2) {
+       background-color: #349803;
+     }
+  
+     div:nth-child(3) {
+       background-color: #ffcd00;
+     }
+  
+     div:nth-child(4) {
+       background-color: blue;
+     }
+   
+}
+*/
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+
+
+li:nth-child(1) {background-color: red;}
+li:nth-child(2) {background-color: green;}
+li:nth-child(3) {background-color: yellow;}
+li:nth-child(4) {background-color: blue;}
+
+ul {
+	display: grid;
+	height: 100vh;
+}
+
+@media (min-width: 600px) {
+	ul {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+}
+
+@media (min-width: 800px) {
+	ul {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	li:nth-child(3) {grid-column: 1 / 2;grid-row: 1 / 2;}
+	li:nth-child(4) {grid-column: 2 / 3;grid-row: 1 / 2;}
+
+
+}
