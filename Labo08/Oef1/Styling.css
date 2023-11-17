@@ -11,15 +11,19 @@ div {
 }
 
 div:nth-child(1) {
-    background: linear-gradient(90deg black);
+
 }
 
 div:nth-child(2) {
-    background: linear-gradient(90deg red);
+    
 }
 
 div:nth-child(3) {
-    background: linear-gradient(90deg blue);
+
+}
+
+background {
+    linear-gradient: 90% red;
 }
 
 h1 {
