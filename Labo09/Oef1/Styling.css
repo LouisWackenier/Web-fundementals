@@ -1,0 +1,28 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+	background-color: #efeee8;
+}
+
+p {
+	width: 50vw;
+	height: 50vh;
+	background-color: gold;
+	animation-name: animatie;
+	animation-duration: 6s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes animatie {
+	25% {background-color: #E9A200; transform: translate(50vw, 0);}
+	50% {background-color: #B32800;transform: translate(50vw, 50vh);}
+	75% {background-color: #7F0000;transform: translate(0, 50vh);}
+	100% {background-color: gold;transform: translate(0, 0);}
+}
+
+p:hover {animation-play-state: paused;}
