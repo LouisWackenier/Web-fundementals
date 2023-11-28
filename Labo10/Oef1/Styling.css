@@ -46,10 +46,13 @@ li:nth-child(40) em {background-color: #e995e6;}
 
 ul {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2vh;
+    justify-content: space-around;
 }
 
 li {
-   padding: 3vh;
+   padding: 2vh;
 }
 
 em {
@@ -57,5 +60,4 @@ em {
     width: 5vh;
     height: 5vh;
     border-radius: 50%;
-    justify-content: space-between;
 }
