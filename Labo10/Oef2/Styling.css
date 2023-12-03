@@ -1,0 +1,26 @@
+/* drie basisstijlregels om je te helpen */
+:root {font-size: 100%;  /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */ }
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/* hier komt jouw css */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    
+    background-color: black;
+    color: darkorange;
+    text-align: center;
+    width: 70vw;
+    height: 70vh;
+    grid-column: 1 / 1;
+}
+
+ul {
+    display: grid;
+    grid-column: 1 / 2;
+}
+
