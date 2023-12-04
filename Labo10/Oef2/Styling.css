@@ -21,6 +21,6 @@ h1 {
 
 ul {
     display: grid;
-    grid-column: 1 / 2;
+    grid-column: 1 / 2C;
 }
 
