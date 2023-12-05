@@ -1,49 +1,80 @@
 //1. Maak variabelen aan voor naam, voornaam, woonplaats. Log naar de console: "Hallo, ik ben
 //Bert Sterkx en woon in Antwerpen". Vervang hierbij mijn gegevens door de inhoud van jouw
 //variabelen.
-let voornaam = "Louis";
-let achternaam = "Wackenier";
-let woonplaats = "Brasschaat";
-
-console.Log("Hallo, ik ben", voornaam, achternaam, "en woon in", woonplaats);
+//let voornaam = "Louis";
+//let achternaam = "Wackenier";
+//let woonplaats = "Brasschaat";
+//
+//console.Log("Hallo, ik ben", voornaam, achternaam, "en woon in", woonplaats);
 
 //2. Log naar de console "In een jaar zijn er x uren”, waarbij x het aantal uren in een jaar zijn.
 //Gebruik en ken waarden toe aan volgende variabelen: urenInEenJaar, urenInEenDag,
 //dagenInEenJaar en bereken x.
-let urenInEenJaar = 0;
-let urenIneenDag = 0;
+//let x = 360 * 24;
+//
+//console.log("Het aantal uren in een jaar is:", x);
 
-let totale
-
-console.Log("");
 //3. Op dezelfde manier bereken je het aantal minuten in een decennium. Kies hier zelf goede
 //namen voor de variabelen die je gaat gebruiken. Log het resultaat naar de console.
-
+//let x = (60 * 24) * 360 * 10;
+//
+//console.log("Het aantal minuten in een decenia is", x)
 
 //4. Hoeveel seconden oud ben jij? Bereken op basis van je leeftijd in jaren. In dagen mag uiteraard
 //ook. Log het resultaat naar de console.
-
+//let x = (60 * 24 * 360) * 19;
+//
+//console.log("Ik ben", x, "minuten oud")
 
 //5. Als een persoon 912 miljoen seconden oud is, hoeveel jaar is deze persoon dan? Log het
 //resultaat naar de console.
-
+//const x = 912000000/ 60 / 60 / 24 / 365
+//
+//console.log("deze persoon is", x, "jaren oud")
 
 //6. Je maakt 2 variabelen aan voor de basis en de hoogte van een rechthoek en noemt ze:
 //basisInCm en hoogteInCm. Je kent ze respectievelijk de waarden 2 en 3 toe. Je berekent op basis
 //van de variabelen de oppervlakte en de omtrek van de rechthoek en logt de 2 zinnetjes naar de
 //console.
-
+//var basisInCm = 2;
+//var hoogteInCm = 3;
+//
+//var oppervlakte = basisInCm * hoogteInCm;
+//var omtrek = basisInCm * hoogteInCm;
+//
+//console.log("de opervlakte in cm is:", oppervlakte); 
+//console.log("de omtrek in cm is:", omtrek);
 
 //7. Je maakt 2 variabelen aan en noemt ze: a en b. Je kent aan elk van hen een getal toe. Je kijkt
 //na of a groter is dan b en logt in dat geval "a is groter dan b" naar de console. Indien a kleiner is
 //dan b log je "a is kleiner dan b" naar de console.
 
+//var a = 20;
+//var b = 10;
+//
+//if(a > b) {
+//    console.log("a is groter dan b")
+//}
+//else {
+//    console.log("a is kleiner dan b")
+//}
 
 //8. Een lichte variant op de vorige oefening: Je maakt 2 variabelen aan en noemt ze: a en b. Je
 //kent aan elk van hen een getal toe. Je kijkt na of a groter is dan b en logt in dat geval "a is groter
 //dan b" naar de console. Indien a kleiner is dan b log je "a is kleiner dan b" naar de console. Maar:
 //indien a = b dan log je "a is gelijk aan b" naar de console.
-
+//var a = 10;
+//var b = 20;
+//
+//if(a == b){
+//    console.log("de getalen zijn gelijk");
+//}
+//else if(a > b){
+//    console.log("a is groter dan b");
+//}
+//else {
+//    console.log("a is kleiner dan b");
+//}
 
 //9. Je maakt een variabele aan en noemt ze dagVanDeWeek. Je geeft ze een zelfgekozen waarde
 //van 1 tot 7. Dit getal komt overeen met een dag van de week: maandag = 1, dinsdag = 2 enz.
@@ -51,27 +82,69 @@ console.Log("");
 //naar de dag van de week. Als eindresultaat log je volgende zin naar de console, indien
 //dagVanDeWeek bvb gelijk is aan 3: "de waarde van DagVanDeWeek = 3, dus vandaag is het
 //woensdag".
-
-
+//var dagVanDeWeek = 0;
+//var week = ["Maandag", "Dinsdag", "Woensdag", "Vrijdag", "Zaterdag", "Zondag"];
+//var checksum = week[dagVanDeWeek];
+//
+//console.log("het is vandaag", checksum);
 
 //10. Je maakt een variabele aan voor de temperatuur en vult hem met een waarde. Schrijf nu een
 //if-else-if statement met 2 else if voorwaarden (dus 3 voorwaarden in totaal). Je logt op basis van
 //de gekozen temperatuur een zinnetje naar de console dat wat commentaar geeft op hoe warm of
 //hoe koud het is.
+//var temperatuur = 1;
+//
+//if(temperatuur >= 20) {
+//    console.log("het is stupid warm")
+//}
+//
+//else if(temperatuur >= 10) {
+//    console.log("het is een beetje koud")
+//}
+//
+//else if(temperatuur >= 0) {
+//  console.log("Het is frisjes");
+//}
+
+
 
 
 //11. Zelfde opgave als bij vraag tien, maar nu voor de seizoenen van het jaar. Je maakt een
 //variabele seizoen aan en kent er een seizoen aan toe. Je maakt een switch statement met cases
 //voor elk van de seizoenen en logt een zinnetje naar de console dat een boodschap geeft
 //naargelang het seizoen van het moment.
-
-
+//var DeSezoenen = ["Lente", "Zommer", "Herfst", "Winter"]
+//var Sezoen = 3;
+//var Checksum = DeSezoenen[Sezoen];
+//
+//switch (Checksum) {
+//    case "Lente":
+//        console.log("het is lente woooo");
+//        break;
+//    case "Zommer":
+//        console.log("het is zommer dus veel te warm");
+//        break;
+//    case "Herfst":
+//        console.log("het is herfst dus het wordt frisjes");
+//        break;
+//    case "Winter":
+//        console.log("het is winter lets goooo sneeeeuw");
+//    break;
+//}
 //12. Maak een loop naar keuze (for-loop of while-loop) die alle getallen tussen 1 en 100 één voor
 //één naar de console logt. 1, 2, 3, 4 ...
-
+//var number = 0;
+//
+//while (number < 11){
+//    console.log(number++);
+//}
 
 //13. Doe het zelfde (van 1 tot 100) maar voor alle veelvouden van 5: 5, 10, 15, 20, 25 ...
+var number = 0;
 
+while (number < 100) {
+    console.log(number += 5);
+}
 
 //14. Je maakt een variabele aan en noemt ze getal. Je kent er het getal 800 aan toe. Je gaat voor
 //dat getal na of het al dan niet deelbaar is door 3, al dan niet deelbaar door 5 en tenslotte al dan
