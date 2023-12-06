@@ -140,17 +140,23 @@
 //}
 
 //13. Doe het zelfde (van 1 tot 100) maar voor alle veelvouden van 5: 5, 10, 15, 20, 25 ...
-var number = 0;
-
-while (number < 100) {
-    console.log(number += 5);
-}
+//var number = 0;
+//
+//while (number < 100) {
+//    console.log(number += 5);
+//}
 
 //14. Je maakt een variabele aan en noemt ze getal. Je kent er het getal 800 aan toe. Je gaat voor
 //dat getal na of het al dan niet deelbaar is door 3, al dan niet deelbaar door 5 en tenslotte al dan
 //niet tegelijk deelbaar door 3 en door 5. Je logt telkens het resultaat naar de console: "800 is (niet)
 //deelbaar door ..."
-
+var getal = 800;
+if (getal / 3) {
+    console.log(getal, "is niet deelbaar door 3")
+} 
+else (getal / 5) {
+    console.log("800 is deelbaar door 5:", getal / 5)
+}
 
 //15. De som van alle natuurlijke getallen die kleiner zijn dan tien die veelvouden zijn van 3 of van 5
 //is 23. Hiermee bedoel ik 3 + 5 + 6 + 9 die samengeteld 23 zijn. Laat de computer de som
