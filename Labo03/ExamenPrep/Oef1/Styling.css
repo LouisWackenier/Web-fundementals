@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+span {
+    
+}
+
+li {
+    padding-top: 10vh;
+    height: 10vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.tomato {
+    background-color: rgb(255,99,71);
+}
+
+.orangered {
+    background-color: rgb(255,69,0);
+}
+
+.coral {
+    background-color: rgb(255,127,80);
+}
+
+.lightsalmon {
+    background-color: rgb(255,160,122);
+}
+
+.darkorange {
+    background-color: rgb(255,140,0);
+}
