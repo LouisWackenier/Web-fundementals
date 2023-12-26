@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row: repeat(4, auto);
+}
+
+div {
+    height: 25vh;
+    width: auto;
+}
+
+div:nth-child(1) {
+     background-color: #1446a0;
+     grid-column: 1;
+}
+
+div:nth-child(2) {
+    background-color: #db3069;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+div:nth-child(3) {
+   background-color: #f5d547;
+   grid-row: 3;
+   grid-column: 3;
+}
+
+div:nth-child(4) {
+   background-color: #ebebd3;
+   grid-row: 4;
+   grid-column: 4;
+}
